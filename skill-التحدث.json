@@ -1,0 +1,690 @@
+{
+  "intents": [
+    {
+      "intent": "General_Connect_to_Agent",
+      "examples": [
+        {
+          "text": "أرجوك إيصالي بوكيل إنساني من فضلك."
+        },
+        {
+          "text": "أرسلني إلى وكيل"
+        },
+        {
+          "text": "أريد التحدث مع أحد"
+        },
+        {
+          "text": "أطلب ممثل خدمة الزبائن من فضلك"
+        },
+        {
+          "text": "أطلب وكيل حقيقي من فضلكم"
+        },
+        {
+          "text": "أود التحدث مع شخص"
+        },
+        {
+          "text": "ابغى اكلم انسان حقيقي"
+        },
+        {
+          "text": "الاتصال بشخص"
+        },
+        {
+          "text": "لا أريد التحدث مع روبوت"
+        },
+        {
+          "text": "لا أريد التحدث معك"
+        },
+        {
+          "text": "ما ابي اكلمك"
+        }
+      ],
+      "description": "طلب وكيل إنسان"
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "أريد الذهاب"
+        },
+        {
+          "text": "أريد وقف العملية"
+        },
+        {
+          "text": "إنهاء التجربة"
+        },
+        {
+          "text": "إنهاء هذا الحديث"
+        },
+        {
+          "text": "خلاص باي"
+        },
+        {
+          "text": "شكرا"
+        },
+        {
+          "text": "شكرا على هذا الحوار"
+        },
+        {
+          "text": "شكرا، مع السلامة"
+        }
+      ],
+      "description": "وقف الحوار"
+    },
+    {
+      "intent": "General_Positive_Feedback",
+      "examples": [
+        {
+          "text": "أحب كثيرا عملك هناك"
+        },
+        {
+          "text": "أحسنت بقدر لا يصدق!"
+        },
+        {
+          "text": "أحسنت كتير"
+        },
+        {
+          "text": "ألف شكر"
+        },
+        {
+          "text": "أنت رائع"
+        },
+        {
+          "text": "أنت رائع!"
+        },
+        {
+          "text": "جميل كتير"
+        },
+        {
+          "text": "جيد جدا"
+        },
+        {
+          "text": "شكرا"
+        },
+        {
+          "text": "شكرا على مساعدتك المفيدة"
+        },
+        {
+          "text": "طيب، شكرا"
+        },
+        {
+          "text": "عظيم!"
+        },
+        {
+          "text": "كل الاحترام لك مني"
+        },
+        {
+          "text": "ما عملته جميل جدا"
+        },
+        {
+          "text": "هذا جميل جدا!"
+        },
+        {
+          "text": "هذا رائع"
+        },
+        {
+          "text": "هذا ما طلبته بالضبط"
+        },
+        {
+          "text": "يا ريت نشتغل سويا مرة ثانية"
+        }
+      ],
+      "description": "التعبير عن الشعور الإيجابي أو عن الشكر"
+    },
+    {
+      "intent": "استفسارات",
+      "examples": [
+        {
+          "text": "الازرار تشتغل"
+        },
+        {
+          "text": "الازرار تشتغل؟"
+        },
+        {
+          "text": "انا قاعدة اتحكم بالروبوت؟"
+        },
+        {
+          "text": "صدق قاعد يصير شي لما اضغط الزر؟"
+        },
+        {
+          "text": "لما اضغط الزر يصير شي؟"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "الغاء_حجز",
+      "examples": [
+        {
+          "text": "ابغى الغي الحجز"
+        },
+        {
+          "text": "ابي اكنسل الحجز"
+        },
+        {
+          "text": "كنسل الحجز"
+        },
+        {
+          "text": "ما ابغى الحجز خلاص"
+        },
+        {
+          "text": "مابي الحجز"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "ترحيب",
+      "examples": [
+        {
+          "text": "السلام عليكم"
+        },
+        {
+          "text": "اهلا"
+        },
+        {
+          "text": "مرحبا"
+        },
+        {
+          "text": "هاي"
+        },
+        {
+          "text": "هلو"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "حجوزات",
+      "examples": [
+        {
+          "text": "متوفر حجز"
+        },
+        {
+          "text": "هل عندكم حجوزات"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "رد_السؤال_عن_الحال",
+      "examples": [
+        {
+          "text": "الحمدلله"
+        },
+        {
+          "text": "بخير الحمدلله"
+        },
+        {
+          "text": "تمام"
+        },
+        {
+          "text": "زي العسل"
+        },
+        {
+          "text": "كويس"
+        },
+        {
+          "text": "كويسه"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "سؤال_عن_الحال",
+      "examples": [
+        {
+          "text": "اخبارك؟"
+        },
+        {
+          "text": "شحالش"
+        },
+        {
+          "text": "كيف حالك؟"
+        },
+        {
+          "text": "كيفك؟"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "sys-date",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-number",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-time",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "مرض",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "سرطان",
+          "synonyms": [
+            "كانسر"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "كورونا",
+          "synonyms": [
+            "كرونا",
+            "كوفيد",
+            "كوفيد١٩"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "dialog_nodes": [
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": " ورقم الحجز؟"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_9_1626112279746",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1626112279750",
+      "previous_sibling": "handler_9_1626112279750"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "ما اليوم المناسب؟"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_7_1626109005298",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1626109005363",
+      "previous_sibling": "handler_9_1626109005363"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "ما الوقت المناسب؟"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_6_1626109087620",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1626109087624",
+      "previous_sibling": "handler_4_1626109087624"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "ابشر/ي عطيني يوم الحجز؟"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_7_1626112131532",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1626112131622",
+      "previous_sibling": "handler_6_1626112131622"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1626109087620",
+      "context": {
+        "time": "@sys-time"
+      },
+      "conditions": "@sys-time",
+      "event_name": "input",
+      "dialog_node": "handler_4_1626109087624"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "كم عدد الحضور؟"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_1_1626109138432",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1626109138438",
+      "previous_sibling": "handler_7_1626109138438"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1626112131532",
+      "context": {
+        "date": "@sys-date"
+      },
+      "conditions": "@sys-date",
+      "event_name": "input",
+      "dialog_node": "handler_6_1626112131622"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1626109138432",
+      "context": {
+        "number": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_7_1626109138438"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1626109005298",
+      "context": {
+        "date": "@sys-date"
+      },
+      "conditions": "@sys-date",
+      "event_name": "input",
+      "dialog_node": "handler_9_1626109005363"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1626112279746",
+      "context": {
+        "number": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_9_1626112279750"
+    },
+    {
+      "type": "standard",
+      "title": "انهاء الحوار",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "مع السلامة."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_Ending",
+      "dialog_node": "node_10_1626112770508",
+      "previous_sibling": "node_6_1626113137187"
+    },
+    {
+      "type": "standard",
+      "title": "ترحيب",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "يا هلا, معك سمر, كيف ممكن اساعدك؟ "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#ترحيب || welcome",
+      "dialog_node": "node_1_1626108488620"
+    },
+    {
+      "type": "standard",
+      "title": "استفسار",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "اي نعم, انت/ي الان قاعد/ة تتحكم/ين بالروبوت! "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#استفسارات",
+      "dialog_node": "node_2_1626113855222",
+      "previous_sibling": "node_3_1626113711915"
+    },
+    {
+      "type": "standard",
+      "title": "الرد عن الحال",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "دايمة ان شاء الله. كيف ممكن اساعدك؟"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#رد_السؤال_عن_الحال",
+      "dialog_node": "node_3_1626113711915",
+      "previous_sibling": "node_7_1626113585902"
+    },
+    {
+      "type": "frame",
+      "title": "كنسل_الحجز",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "تم الغاء الحجز."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#الغاء_حجز",
+      "dialog_node": "node_4_1626112070089",
+      "previous_sibling": "node_6_1626108953610"
+    },
+    {
+      "type": "frame",
+      "title": "اقامة حجوزات",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "تم الحجز"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#حجوزات",
+      "dialog_node": "node_6_1626108953610",
+      "previous_sibling": "node_2_1626113855222"
+    },
+    {
+      "type": "standard",
+      "title": "طلب التحدث مع انسان",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "تمام, لحظات الله يعافيك و بوصلك مع احد مقدمين الخدمة."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#General_Connect_to_Agent || anything_else",
+      "dialog_node": "node_6_1626113137187",
+      "previous_sibling": "node_4_1626112070089"
+    },
+    {
+      "type": "standard",
+      "title": "سوال عن الحل",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "بخير الله يسلمك, كيفك انت/ي؟"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#سؤال_عن_الحال",
+      "dialog_node": "node_7_1626113585902",
+      "previous_sibling": "node_1_1626108488620"
+    },
+    {
+      "type": "slot",
+      "parent": "node_6_1626108953610",
+      "variable": "$number",
+      "dialog_node": "slot_1_1626109138432",
+      "previous_sibling": "slot_6_1626109087620"
+    },
+    {
+      "type": "slot",
+      "parent": "node_6_1626108953610",
+      "variable": "$time",
+      "dialog_node": "slot_6_1626109087620",
+      "previous_sibling": "slot_7_1626109005298"
+    },
+    {
+      "type": "slot",
+      "parent": "node_6_1626108953610",
+      "variable": "$date",
+      "dialog_node": "slot_7_1626109005298"
+    },
+    {
+      "type": "slot",
+      "parent": "node_4_1626112070089",
+      "variable": "$date",
+      "dialog_node": "slot_7_1626112131532"
+    },
+    {
+      "type": "slot",
+      "parent": "node_4_1626112070089",
+      "variable": "$number",
+      "dialog_node": "slot_9_1626112279746",
+      "previous_sibling": "slot_7_1626112131532"
+    },
+    {
+      "type": "standard",
+      "title": "أي شيء آخر",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "لم أفهم، يمكنك محاولة اعادة الصياغة"
+              },
+              {
+                "text": "هل يمكنك اعادة صياغة عبارتك؟ أنا لا فهم"
+              },
+              {
+                "text": "لم أفهم قصدك"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "أي شيء آخر",
+      "previous_sibling": "node_10_1626112770508",
+      "disambiguation_opt_out": true
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": ":هل قصدت",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "كل ما سبق خطأ"
+    },
+    "human_agent_assist": {
+      "prompt": ":هل قصدت"
+    }
+  },
+  "learning_opt_out": false,
+  "name": "التحدث",
+  "language": "ar",
+  "description": ""
+}
